@@ -1,0 +1,45 @@
+h1 {
+
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+
+
+    background-color: rgb(73, 117, 238);
+}
+
+
+.centered {
+     position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+     font-size: 50px;
+     font-family: 'Erica One', cursive;
+    color: rgb(122, 117, 117);
+  }
+
+.imgbg {
+    filter: blur(3px);
+
+    
+    
+  }
+
+.card2 {
+
+    border: none;
+  
+}
+
+h1{
+    font-family: 'Erica One', cursive;
+    font-size: 75px;
+}
