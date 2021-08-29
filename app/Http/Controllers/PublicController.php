@@ -26,7 +26,7 @@ class PublicController extends Controller
         // guardar los datos en el db
         $name = $misdatos['fullname'];
 
-        return redirect()->route('home')-> with('message',"Gracias $name por haber contactado con nosotros");
+        return redirect()->route('home')-> with('message',"Gracias $name por haber contactado con nosotros, en breve revisaremos su mensaje");
 
     }
 
